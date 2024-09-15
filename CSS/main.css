@@ -1,0 +1,135 @@
+.main_document {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+.title_h3 {
+    font-size: 24px;
+    color: #333333;
+    font-weight: 400;
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 22px;
+
+}
+
+.title_h2 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 66px;
+}
+
+.title_h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 42px auto 0 auto;
+}
+
+.div_wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.div_main1 {
+    display: flex;
+    width: 329px;
+    margin-bottom: 101px;
+}
+
+.div_main2 {
+    margin-left: 29px;
+    text-align: left;
+    width: 269px;
+}
+
+.title_div {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #666666;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.text_div {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    
+}
+
+img {
+    height: 32px;
+    width: auto;
+}
+
+.title_h2_section2 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 46px;
+}
+
+.title_h2_section2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 42px auto 0 auto;
+}
+
+.text_section2 {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    margin-bottom: 90px;
+}
+
+.wrapper_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card_section2 {
+    width: 380px;
+    margin-right: 28px;
+    margin-bottom: 82px;
+}
+
+.img_card {
+    width: 380px;
+    height: auto;
+    margin-bottom: 31px;
+}
+
+.title_card {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #999999;
+    margin-bottom: 15px;
+}
+
+.text_card {
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    color: #a6a6a6;
+}
